@@ -249,9 +249,9 @@ body {
     width: 47%;
     height: 100%;
   }
-  .hii2{
+  /* .hii2{
 border:1px solid red;
-  }
+  } */
 
   .checklist {
   list-style-type: none; /* remove default bullets */
@@ -266,18 +266,58 @@ border:1px solid red;
 
 .four{
   width: 100%;
-  border:2px solid;
-  height: 100px;
+ 
 }
 .four1{
 display: inline-block;
  padding-top: 20px;
 width:24%;
-height:100%;
-border:2px solid;
-
 }
 .four1 h3{
   text-align: center;
+  
+  color: #E64458;
+}
 
+.class3{
+  margin-left: 300px;;
+  margin-right: 400px;
+  margin-top: 15px;
+  background-color: #E24A6F;
+  color: white;
+  padding: 20px ;
+  box-shadow:#313030 5px 5px 5px 0px;
+}
+.newlink{
+   border: 3px solid white;
+ 
+}
+
+/* ############### ABOUT PAGE ############################# */
+
+
+.about1{
+   padding: 50px 250px ;
+  
+}
+.about2{
+  width: 50%;
+  display: inline-block;
+}
+.about3{
+  width: 49%;
+  display: inline-block;
+}
+
+.about4{
+  border:3px solid #E24A6F;
+  color: black ;
+  padding: 30px;
+}
+.about3 h2{ border-bottom:5px solid #E24A6F;
+}
+
+#about6{
+  
+  margin-top: 30px;
 }
