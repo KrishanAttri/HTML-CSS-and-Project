@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.header{
+    height: 100vh;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../image/image4.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* border: 2px solid red; */
+}
+ .header{
+    color: white;
+ }
+ a{
+   color: white;
+   text-decoration: none;
+ }
+
+
+/* .bg-dark{
+  background-color:rgb(56, 91, 121);
+} */
+ .navbar{
+    /* border: 4px solid green; */
+    padding-top:  20px;
+    height: 70px;
+    font-size: 18px;
+    
+ }
+
+
+
+ .nav-items{
+  
+   text-align: center;
+
+ }
+
+
+ .heading{
+   font-size:40px;
+    position: absolute;
+    color:rgb(192, 181, 181);
+    left: 120px;
+    top:10px;
+ }
+
+
+ .nav-item{
+   display: inline;
+   padding:30px;
+   /* margin-left: 30px; */
+   
+ }
+
+  .nav-item:hover{
+   
+    text-decoration: underline;
+   text-underline-offset: 4px;
+ }
+
+.div{
+   text-align: center;
+ }
+ 
+ .div{
+   /* border: 3px solid green; */
+   margin-top: 200px;
+ }
+
+ .navbar::after{
+   content:'';
+   display: block;
+   clear: both;
+ }
+
+ .btn{
+   background-color: aliceblue;
+   color:black;
+   padding: 8px;
+   border-radius:5px;
+   font-size: 18px;
+   transition: color;
+   transition-duration: 900;
+ }
+
+ .btn:hover{
+   background-color: black;
+   color:white;
+   
+ }
+
+ /* ############################ SHOWCASE DIV CASE ####################################### */
+
+
+
+ .showcase{
+    
+    padding: 125px  150px;
+     background-color: #ddd;  
+ }
+ .row{
+  height: 300px;
+  
+ }
+ /* .showcase{
+    margin-left: 150px;
+    margin-right:150px;
+    
+ } */
+     .row1{
+      margin-bottom:90px ;
+     }
+
+  .row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+  }
+    .row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 49.4%;
+  }
+  .row .img-box{
+    
+    height: 100%;
+  }
+  .row2{
+    padding-left: 10px;
+  }
+
+   .row{
+    box-shadow: 5px 5px 5px 0px rgba(79, 78, 78, 0.3);
+
+     background-color: white;
+   }
+
+  .row .img-box img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .button{
+   background-color: aliceblue;
+   color:black;
+   padding: 8px;
+   border-radius:5px;
+   font-size: 18px;
+   
+ }
+ .button:hover{
+   background-color: rgb(23, 21, 22);
+   color:white;
+ }
+ /* z############################## PAGE 3 STYLING############ */
+
+ .box-wrapper{
+  text-align: center;
+  /* border: 2px solid green; */
+  
+  
+ }
+ .feature{
+  padding:50px 200px 40px 200px;
+ 
+ }
+
+.box{
+  width: 33.3333%;
+  float: left;
+  /* padding:5px ; */
+ 
+}
+.box-wrapper::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* .box-2{
+  border: 2px solid green;
+}
+.krishan{
+  background-color: red;
+  color: white;
+} */
+.box-wrapper {
+  background-color: black;
+  color: white;
+  box-shadow: 5px 10px 5px 0px rgba(11, 10, 10, 0.3);
+  
+}
+.box-2{
+  background-color: rgba(255, 0, 81, 0.901);
+  color: white;
+}
+/* ################################## FOTTER-STYLING ##################################### */
+.space-awesome{
+  background-color:wheat;
+  
+}
+.social-media{
+  text-align: center;
+  margin: 50px;
+  padding-top: 20px;
+  color: white;
+}
+.footer{
+  background-color: rgb(48, 53, 57);
+  height: 120px;
+  
+}
+
+
+
+/* #################################### about-page STYLING ################################################# */
+
+ .bg-dark{
+  background-color:rgb(56, 91, 121);
+  ;
+}
+
+.newclass{
+  border-bottom: 5px solid red;
+
+}
+
+  .about{
+    padding: 40px 400px 0px 300px;
+   
+  }
+  .firstdiv{
+    width: 50%;
+   
+    height: 50%; 
+    display:inline-block
+  }
+  .lastdiv{
+    display: inline-block;
+   
+    width: 47%;
+    height: 100%;
+  }
+  .hii2{
+border:1px solid red;
+  }
+
+  .checklist {
+  list-style-type: none; /* remove default bullets */
+  padding-left: 0;
+}
+
+.checklist li::before {
+  content: "✔ "; /* checkmark */
+  color: red;
+  margin-right: 8px;
+}
+
+.four{
+  width: 100%;
+  border:2px solid;
+  height: 100px;
+}
+.four1{
+display: inline-block;
+ padding-top: 20px;
+width:24%;
+height:100%;
+border:2px solid;
+
+}
+.four1 h3{
+  text-align: center;
+
+}

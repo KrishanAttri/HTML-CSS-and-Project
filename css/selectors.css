@@ -1,0 +1,40 @@
+/* *{
+    color: blue;
+} */
+
+/*  this is a uniiversal tag which is applied for all html webpage  */
+
+header{
+    background-color: azure;
+}
+
+header p{
+    color: red;
+}
+
+/*  TO USE OR STYLE INSIDE THE HEADER JUST TYPE HEADER SPACE AND THEN THE ELEMENT YOU ARE STYLINGG  */
+
+header{
+    li a{
+        color: grey;
+    }
+}
+
+section.my-articles{
+    background-color: bisque;
+}
+
+
+section.my-articles > h2{
+    color: green;
+}
+
+/*  this is  a child selector 
+    JUST CHOOSE THE CLASS OR ELEMENT YOU ARE STYLING AND THEN SPACE AND > AND SPACE AND THE ELEMENT - THATS ALL */
+
+    /*  ADJUSTMENT SELECTOR  = it can change the color after the paragraphh/ elemet you are choosing including itselg*/
+
+    h2+p{
+        color: red;
+    }
+ 

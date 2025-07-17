@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.fav-musicians{
+    border: 4px solid green;
+    padding:2%;
+    
+    
+}
+
+.mozart{
+    width: 23%;
+   float: left;
+   background-color: aqua;
+   padding: 10px ;
+margin-right: 1.5%;
+ }
+
+.beethoven{
+    width: 23%;
+    float: left;
+    background-color: beige;
+    padding: 10px;
+  margin-right: 1.5%;
+
+}
+.bach{
+    width: 23%;
+    float: left;
+    background-color: seagreen;
+    padding: 10px;
+  margin-right: 1.5%;}
+.pabini{
+    width: 23%;
+    float: left;
+    background-color: navy;
+    padding: 10px;
+  margin-right: 1.5%;}
+.clearfix{
+    clear: both;
+}

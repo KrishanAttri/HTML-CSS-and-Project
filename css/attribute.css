@@ -1,0 +1,35 @@
+/* .username{
+    color: red;
+} */
+ /*  to cahnge the link color just write the maiin word with universal selector 
+  AND ALSO FOR LINK TAGS YOU HAVE TO USE a[href ="...."]
+    REMEMBER TO GIVE SPACE */
+    
+    /*YOU CAN USE ^ FOR ANY LINK OR FOR ANY ATTRIBUTE BUT TRY TO AVOID IT  */
+
+/* a[href *= "google"]{
+    color: brown;
+/* 
+
+    a[href ^= "https"]{
+        color: red;
+    } */
+    /*  u CAN ALSO PROVIDE COLORS USING HTTPS WITH THE HELP OF ^=
+    JUST REMEMBER TO GIVE THE SPACE  */
+
+    a[href $= ".com"]{
+        color: blue;
+    }
+
+    /* FOR GIVING COLOR THE .COM ONLY USE $= 
+    REMEBER TO GIVE THE SPACE  */
+
+
+input[type = "text"]{
+    color: blue;
+    background-color: bisque;
+}
+
+input[type = "password"]{
+    background-color: pink;
+}

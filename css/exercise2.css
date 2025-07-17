@@ -1,0 +1,19 @@
+h1{
+     background-color: rgb(160, 164, 163);
+     text-align: center;
+     padding: 10px ;
+}
+
+section.about, .krishan{  
+     border: 2px  solid gray;
+     padding-left: 20px ;
+}
+
+section h3{
+     text-transform: uppercase;
+     
+}
+.container{
+    
+    margin: 0 150px ;
+}

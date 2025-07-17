@@ -1,0 +1,33 @@
+.krishan{
+    background-color: #C41C80;
+    text-align: center;
+    padding: 20px ;
+    margin: 0 20px;
+}
+
+li{
+    display: inline;
+    padding: 8px ;
+  
+}
+li:hover{
+   
+   text-decoration: underline;
+   text-underline-offset: 4px ;
+   text-decoration-thickness: 0.7px ;
+   
+}
+.sumit{   
+   border-bottom: 2px solid black; 
+}
+
+.ravi{
+   margin-left: 50px ;
+}
+
+.tinku{
+  border-bottom: 3px solid black;
+}
+.hina{
+    margin: 50px  ;
+}
