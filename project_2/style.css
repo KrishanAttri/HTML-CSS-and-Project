@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading{
+    font-size: 25px;
+    margin-left: 60px; 
+    /* border: 2px solid green; */
+    display: inline;
+    position: fixed;
+   left:20px; 
+    top: 20px;
+}
+
+.h3{
+margin-left:30px ;
+display: inline;
+/* border: 2px solid red; */
+}
+
+.navbar{
+  text-align:end;
+  border-bottom: 2px solid rgb(219, 214, 214);
+  height: 50px;
+  padding-right:100px;
+  padding-top: 20px; 
+}
+
+h3:hover{
+ text-decoration: underline;
+ text-underline-offset: 5px ;
+}
+
+.link{
+  text-decoration: none;
+  background-color: rgb(255, 0, 0);
+  margin-left: 30px;
+  padding: 10px;
+  border-radius:10px ;
+  color: white;
+  font-size: 18px;
+}
+.link:hover{
+  transform:scale(110) ;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+/* .div1{ margin-bottom:30px ;} */
+.h1{
+  font-size: 40px;
+}
+
+
+ /* .div3{
+ border:2px solid ;
+ } */
+ 
+.div4{
+  padding-left: 50px;;
+display: inline-block;
+/* padding-bottom: 300px; */
+  width:45% ;
+/* border:2px solid red; */
+  
+}
+.div5{
+  display: inline-block;
+  width: 49%;
+  /* text-align: center; */
+  /* border:2px solid yellow; */
+  text-align: center;
+  padding: 10px;
+
+  
+}
+.div5 img{
+height: 400px;
+
+}
+span{
+  color: #CA5560;
+}
+p{
+  margin-bottom: 50px;
+}
+.link1{
+  text-decoration: none;
+  margin-left: 150px;
+  background-color: #CA5560;
+  padding: 15px;
+  color: white;
+  border-radius: 15px;
+  
+}
+.link1:hover{
+  background-color: #089E99;
+  padding: 17px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
