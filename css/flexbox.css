@@ -1,0 +1,29 @@
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start; */
+}
+
+.box{
+    border: 2px solid black;
+    /* height: 500px; */
+    /* width: 200px; */
+}
+.box1{
+    background-color: lightblue;
+}
+.box2{
+    background-color: lightcoral;
+}
+.box3{
+    background-color: lightgreen;
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: aliceblue;
+}
