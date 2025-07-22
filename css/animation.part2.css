@@ -1,0 +1,88 @@
+body {
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border: 2px dashed #444;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, lightcoral, tomato);
+  box-shadow: 0 0 10px lightcoral;
+  animation: krishan 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+  will-change: transform, top, left, box-shadow, clip-path;
+}
+
+
+@keyframes krishan {
+  0% {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, lightcoral, tomato);
+    box-shadow: 0 0 10px lightcoral;
+    transform: scale(1) rotate(0deg);
+    clip-path: none;
+  }
+
+  25% {
+    top: 0;
+    left: 300px;
+    border-radius: 0%;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, aquamarine, turquoise);
+    box-shadow: 0 0 20px aquamarine;
+    transform: scale(1.1) rotate(90deg);
+    clip-path: none;
+  }
+
+  50% {
+    top: 300px;
+    left: 300px;
+    width: 80px;
+    height: 40px;
+    background: linear-gradient(45deg, blueviolet, violet);
+    box-shadow: 0 0 25px blueviolet;
+    transform: scale(0.8) rotate(180deg);
+    border-radius: 15%;
+    clip-path: none;
+  }
+
+  75% {
+    top: 300px;
+    left: 0;
+    width: 30px;
+    height: 25px;
+    background: beige;
+    box-shadow: 0 0 20px beige;
+    transform: scale(2) rotate(301deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border-radius: 0%;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, brown, orange);
+    box-shadow: 0 0 10px brown;
+    transform: scale(1) rotate(360deg);
+    border-radius: 50%;
+    clip-path: none;
+  }
+}

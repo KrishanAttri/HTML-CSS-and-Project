@@ -1,44 +1,107 @@
-.div{
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    animation-name: krishan ;
-    animation-duration: 3s ;
-    animation-delay: 3s;
-    animation-iteration-count: infinite;
-    /* animation-fill-mode: forwards; */
-    /* animation: alternate-reverse; */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
 }
-@keyframes krishan{ 
-    from{
-        background-color: red;
-    }
-     to{
-        background-color: yellow;
-     }
+.box{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid red; */
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
 }
-
-.div2{
-    width: 30px;
-    height: 50px;
-    animation: hii;
-    animation-duration: 3s;
-    animation-delay:3s;
-   animation-iteration-count: infinite;
-    background-color: blue;
+ 
+.div1 {
+    height: 200px;
+    width: 200px;
+    /* border: 5px dotted gray; */
+    /* border-radius: 50%; */
+    /* display: flex;
+    justify-content: center; */
+     /* position:relative; */
     
 }
 
-@keyframes hii {
-
-  from{
-    width: 30px; 
-  }
-  to{
-    width: 300px;
-  }   
+.div2{
+    
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: red;
+     animation-name:krishan ;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    position: relative;
+    animation-timing-function: cubic-bezier();
+    animation-iteration-count:infinite;
+   
+  
 }
-.box{
-    display: flex;
-    justify-content: space-around;
+@keyframes krishan {
+    0%{ left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 150px;
+        top: 0px;
+        background-color: aquamarine;
+    }
+    50%{
+        left: 150px;
+        top: 150px;
+        background-color: lightcoral;
+    }
+    75%{
+        left: 0px;
+        top: 150px;
+        background-color: black;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+
+    }
+    
+}
+.div3{
+    
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: green;
+     animation-name: sumit ;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    position: relative;
+    animation-timing-function: cubic-bezier();
+    animation-iteration-count: infinite;
+    align-self: flex-end;
+}
+@keyframes sumit {
+    0%{ left: 150px;
+        top: 100px;
+        background-color: lightgreen;
+    }
+    25%{
+        left: 150px;
+        top: 0px;
+        background-color: darkcyan;
+    }
+    50%{
+        left:0px;
+        top: 0px;
+        background-color: violet;
+    }
+     75%{
+        left: 0px;
+        top: 100px;
+        background-color: purple;
+    }
+    100%{
+        top: 0px;
+        left: 150px;
+    }
+    
 }
