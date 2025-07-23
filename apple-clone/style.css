@@ -1,0 +1,157 @@
+
+/* Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar nav a {
+  color: #aaa;
+  margin-left: 30px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 140px 20px 80px;
+  background-image: url('https://www.apple.com/v/iphone-14-pro/a/images/meta/iphone-14-pro_overview__e6khcva4hkeq_og.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 26px;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.hero .links a {
+  color: #2997ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hero .links a:hover {
+  text-decoration: underline;
+}
+
+/* Features Section */
+.features {
+  background-color: #111;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.features .feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.feature-box {
+  padding: 30px;
+  background: #1a1a1a;
+  border-radius: 16px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px);
+  background: #222;
+}
+
+.feature-box h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.feature-box p {
+  color: #bbb;
+  font-size: 16px;
+}
+
+/* Responsive Nav */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .navbar nav a {
+    margin: 8px 10px 0 0;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero .links a {
+    font-size: 16px;
+    margin: 0 8px;
+  }
+}

@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.ul-items{
+    display: none;
+}
+.hamburger input[type="checkbox"]:checked ~ .ul-items{
+    display: block;
+}
