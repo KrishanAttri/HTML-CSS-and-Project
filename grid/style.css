@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 5px solid rgba(255, 0, 0, 0.464);
+    max-width: 1200px;
+  margin: auto;
+  background-color: rgba(0, 0, 255, 0.488);
+  color: white;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  column-gap: 10px;
+}
+/* IMPLICIT- FROM BROWSER */
+/* EXPLICIT-FROM USER */
+.item{
+    padding: 7px;
+    border: 2px solid;
+}
+.item:hover{
+    background-color:black ;
+    color: white;
+}

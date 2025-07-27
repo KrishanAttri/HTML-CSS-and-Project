@@ -1,0 +1,125 @@
+/* ===========================
+   🔁 GLOBAL RESET + BASE
+=========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+
+/* ===========================================
+   🌿 INDEX.HTML STYLES (Landing + Grid)
+=========================================== */
+
+/* 🔹 Landing Section */
+.landing {
+  height: 100vh;
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.landing h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.landing p {
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.scroll-down {
+  margin-top: 32px;
+  font-size: 16px;
+  color: white;
+  animation: krishan 1.5s infinite;
+}
+
+@keyframes krishan {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+/*  Items Grid Section */
+.items-grid {
+  padding: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  
+  /* background-color: rgba(137, 43, 226, 0.04); */
+}
+
+.item {
+  position: relative;
+  background-color: #e0ffe0;
+  padding: 80px 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #2c3e50;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.item .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(44, 62, 80, 0.95);
+  color: #fff;
+  padding: 80px;
+  font-size: 20px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.item:hover .desc {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* ===========================================
+   📱 RESPONSIVE DESIGN
+=========================================== */
+
+@media (max-width: 768px) {
+  .landing h1 {
+    font-size: 36px;
+  }
+
+  .landing p {
+    font-size: 16px;
+  }
+
+  .product-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-box img {
+    width: 80%;
+  }
+}
+
